@@ -7,15 +7,23 @@ public class AppException
     private static int div(int a, int b)
     {return a/b;}
 
-    public static void main( String[] args ) throws FuelProcessingException
+    public static void main( String[] args )
     {
       Engine eng1 = new Engine();
 
-      eng1.addFuel(12);
+     try {
+         eng1.addFuel(12);
 
-      eng1.addFuel(5);
+         eng1.addFuel(5);
 
-      eng1.addFuel(20);
+         eng1.addFuel(20);
+     }
+    catch (FuelProcessingException ex)
+    {
+        System.out.println(ex);
+
+    }
+
 
     }
 }

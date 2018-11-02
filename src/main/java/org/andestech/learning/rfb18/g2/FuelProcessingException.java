@@ -4,6 +4,9 @@ public class FuelProcessingException extends Exception {
 
     //.....
     private int f;
+    //..
+
+    public int getF(){return f;}
 
     public FuelProcessingException(String m)
     {
