@@ -69,11 +69,18 @@ public class AppArray
         int arr4[] = new int[20];
         int arr5[] = new int[N];
 
+
+       // int[] arr8 = new int[10];
+        int[] arr8 = generateArr(10);
+
         System.out.println(
         Arrays.toString(generateArr(10)));
         Thread.sleep(3);
         System.out.println(
         Arrays.toString(generateArr(10)));
+
+        System.out.println("sum of ten: " +
+        sum2( new int[]{1,2,3,4,5,6,7,8,9,10} ));
 
 
     }
