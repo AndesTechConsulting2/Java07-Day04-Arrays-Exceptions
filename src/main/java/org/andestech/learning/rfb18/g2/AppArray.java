@@ -62,6 +62,8 @@ public class AppArray
         int arr3[] = {1,2,3,4,5,6,7,8,9,10};
         System.out.println("sum of ten: " + sum2(arr3));
         System.out.println(Arrays.toString(arr3));
+        arrAdd(arr3,10);
+        System.out.println(Arrays.toString(arr3));
 
         int N = 10;
         int arr4[] = new int[20];
