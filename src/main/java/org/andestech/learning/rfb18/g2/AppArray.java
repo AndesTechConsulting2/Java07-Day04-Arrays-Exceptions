@@ -6,6 +6,13 @@ import java.util.Random;
 
 public class AppArray
 {
+    private static void arrAdd(int[] arr, int a)
+    {
+        for(int j=0; j< arr.length; j++) arr[j] += a;
+
+    }
+
+
     private static int sum(int[] arr)
     {
        int s = 0;
