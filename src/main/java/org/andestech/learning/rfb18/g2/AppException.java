@@ -15,5 +15,7 @@ public class AppException
 
       eng1.addFuel(5);
 
+      eng1.addFuel(20);
+
     }
 }
