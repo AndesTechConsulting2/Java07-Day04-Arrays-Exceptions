@@ -1,5 +1,8 @@
 package org.andestech.learning.rfb18.g2;
 
+
+
+
 public class Engine {
     //..
 
@@ -32,6 +35,11 @@ public class Engine {
 // ....
         fuel = f;
         System.out.println("fuel ok: " + f);
+
+
+
+
+
 
     }
 }
